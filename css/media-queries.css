@@ -1,0 +1,12 @@
+@media (max-width: 103.75rem) { /*1660px*/
+    html {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 91.25rem) { /*1460*/
+    html {
+        font-size: 12px;
+    }
+}
