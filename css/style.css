@@ -1285,23 +1285,26 @@ nav {
 .gallery .swiper-slide {
     height: 41.375rem;
     width: 53%;
+    height: 60.7%;
 }
 
 .gallery-slide-pict {
     /* height: 41.375rem;
     width: 64rem; */
-    height: auto;
+    height: 100%;
     width: 88%;
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     transition: 0.2s;
+    object-fit: contain;
 }
 
 .gallery .swiper-slide-next img,
 .gallery .swiper-slide-prev img {
-    height: 29.8125rem;
+    /* height: 29.8125rem; */
+    height: 74.84%;
     object-fit: cover;
     filter: opacity(60%);
 }
