@@ -593,7 +593,7 @@ nav {
 }
 
 .dilivery {
-    background-image: url('../img/dileverybg.png');
+    background-image: url('../img/фонповора.png');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -601,14 +601,25 @@ nav {
 }
 
 .dilivery-words {
-    position: absolute;
-    left: 22%;
+    margin: 0 auto;
 }
 
 .dilivery img {
     position: absolute;
-    top: 0;
-    z-index: -1;
+}
+
+.dilivery-cheiffirst {
+    width: 35.6%;
+    /* top: 14%; */
+    left: 1.8%;
+    bottom: -2%;
+}
+
+.dilivery-cheifsecond {
+    width: 30%;
+    /* top: 18.7%; */
+    bottom: -7%;
+    left: 65.8%;
 }
 
 .dilivery-title {
@@ -632,7 +643,7 @@ nav {
     padding-top: 2.0625rem;
     width: 70%;
     display: flex;
-    /* margin: 0 auto; */
+    margin: 0 auto;
 }
 
 .dilivery-point {
@@ -644,7 +655,7 @@ nav {
 }
 
 .dilivery-point:last-child {
-    padding-left: 7.0625rem;
+    padding-left: 3.0625rem;
 }
 
 .dilivery-point-number {
