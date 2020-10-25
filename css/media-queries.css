@@ -932,7 +932,11 @@
     #Enter {
         display: block;
         position: absolute;
-        top: 75%;
+        top: 56.25rem;
+    }
+
+    .footer-second-list-wrap ul:last-child li:last-child {
+        display: none;
     }
 
 }
