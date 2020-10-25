@@ -87,7 +87,11 @@ var MainSlider = new Swiper('.main-slider .swiper-container', {
   $(window).on('load resize', function(){
     if($(window).width() <= 750) {
       $('.second-slider .swiper-slide img').attr('src', './img/mob-tomat.png')
+      $('.events-san').attr('src', './img/солнышки.png')
+      $('.quest-right img').attr('src', './img/quest-mob.png')
     } else {
       $('.second-slider .swiper-slide img').attr('src', './img/second-slider-img.png')
+      $('.events-san').attr('src', './img/сан.png')
+      $('.quest-right img').attr('src', './img/quest-pict.png')
     }
   })
