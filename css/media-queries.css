@@ -101,6 +101,10 @@
     .main-slider .swiper-slide:last-child .main-slide-column:nth-child(3) {
         display: none;
     }
+
+    .main-slider .swiper-slide {
+        padding-bottom: 50px;
+    }
     
     .main-column-letters {
         font-size: 24px;
@@ -120,6 +124,7 @@
 
     .main-slide-columns, .main-slide-column {
         width: 100%;
+        height: 1071px;
     }
 
     .main-slide-column {
@@ -129,14 +134,14 @@
 
     .main-slider .swiper-button-prev {
         left: 5.6%;
-        top: 93.9%;
+        top: 89.45%;
         width: 9.541%;
         height: 3.72%;
     }
 
     .main-slider .swiper-button-next {
         left: 85%;
-        top: 93.85%;
+        top: 89.45%;
         width: 9.541%;
         height: 3.72%;
     }
@@ -166,7 +171,7 @@
 
     .main-slider .swiper-container-horizontal .swiper-pagination-bullets {
         left: -3%;
-        top: 92.5%;
+        top: 88.3%;
     }
 
     .main-slider .swiper-slide {
