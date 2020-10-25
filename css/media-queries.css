@@ -145,19 +145,19 @@
         font-size: 30px;
     }
 
-    .main-slider .swiper-pagination-bullet-active:after {
-        top: -40px;
-        left: 150%;
-        width: 4px;
-        height: 35px;
-    }
-
     .main-slider .swiper-pagination-bullet:after {
         top: -1.875rem;
         left: 150%;
         width: 4px;
         height: 21px;
-        /* transition: all 1s; */
+        transition: all 0.5s;
+    }
+
+    .main-slider .swiper-pagination-bullet-active:after {
+        top: -45px;
+        left: 150%;
+        width: 4px;
+        height: 35px;
     }
 
     .main-slider .swiper-pagination-bullet {
@@ -171,6 +171,104 @@
 
     .main-slider .swiper-slide {
         background-position-x: 50%;
+    }
+
+    .second-slider {
+        padding-bottom: 14.66rem;
+    }
+
+    .second-slider .container {
+        width: 89.2%;
+    }
+
+    .second-slider .swiper-slide {
+        width: 100%;
+    }
+
+    .second-slider-title {
+        font-size: 72px;
+        width: 100%;
+        letter-spacing: 1.4px;
+        padding-bottom: 39px;
+    }
+
+    .second-slider-words {
+        top: 4.7%;
+        left: 4.3%
+    }
+
+    .second-slider-date {
+        font-size: 36px;
+        padding-bottom: 19px;
+    }
+
+    .second-slider-info {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .second-slider-description {
+        top: 68.73%;
+        left: 4.5%;
+    }
+
+    .second-slider-description p {
+        font-size: 36px;
+        width: 97%;
+        line-height: 41px;
+    }
+
+    .second-slider-description span {
+        top: 172%;
+        left: 24%;
+        font-size: 24px;
+    }
+
+    .second-slider .swiper-button-next {
+        left: 85.1%;
+        top: 90.88%;
+        width: 9.8%;
+        height: 3.4%;
+    }
+
+    .second-slider .swiper-button-prev {
+        left: 6%;
+        top: 90.8%;
+        width: 9.8%;
+        height: 3.4%;
+    }
+
+    .second-slider .swiper-pagination-bullet:after {
+        top: -1.875rem;
+        left: 150%;
+        width: 4px;
+        height: 21px;
+        transition: all 0.5s;
+    }
+
+    .second-slider .swiper-pagination-bullet-active:after {
+        top: -45px;
+        left: 150%;
+        width: 4px;
+        height: 35px;
+    }  
+
+    .second-slider .swiper-pagination-bullet {
+        margin: 0 30px !important;
+    }
+
+    .second-slider .swiper-container-horizontal .swiper-pagination-bullets {
+        left: -3%;
+        top: 92.5%;
+    }
+
+    .second-slider .swiper-pagination-bullet {
+        font-size: 30px;
+    }
+
+    .second-slider .swiper-pagination {
+        top: 89.96%;
+        left: 26.07%
     }
 
 }

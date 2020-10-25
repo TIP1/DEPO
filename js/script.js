@@ -83,3 +83,11 @@ var MainSlider = new Swiper('.main-slider .swiper-container', {
       prevEl: '.gallery .swiper-button-prev',
     },
   });
+
+  $(window).on('load resize', function(){
+    if($(window).width() <= 750) {
+      $('.second-slider .swiper-slide img').attr('src', './img/mob-tomat.png')
+    } else {
+      $('.second-slider .swiper-slide img').attr('src', './img/second-slider-img.png')
+    }
+  })
