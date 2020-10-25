@@ -1468,7 +1468,7 @@ footer {
 }
 
 .footer-list-2-wrap {
-    display: flex;
+    display: block;
 }
 
 .footer-list-2-wrap ul:last-child {
@@ -1479,12 +1479,20 @@ footer {
     padding-top: 3.125rem;
 }
 
+.footer-second-list-wrap {
+    display: flex;
+}
+
 .footer-contacts {
     text-align: end;
     position: absolute;
     left: 78.9%;
     top: 8.3125rem;
     width: 11.5%
+}
+
+#Enter {
+    display: none;
 }
 
 .footer-content {

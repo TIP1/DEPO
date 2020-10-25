@@ -95,3 +95,25 @@ var MainSlider = new Swiper('.main-slider .swiper-container', {
       $('.quest-right img').attr('src', './img/quest-pict.png')
     }
   })
+
+  var hidemenu = true;
+
+  $('.footer-list.footer-list-2 p').on('click', function() {
+    if($(window).width() <= 750) {
+      if (hidemenu) {
+        $('.footer-list-2-wrap').show(300);
+        $('.footer-list.footer-list-2').addClass('active');
+        hidemenu = false;
+      } else {
+        $('.footer-list-2-wrap').hide(300);
+        $('.footer-list.footer-list-2').removeClass('active');
+        hidemenu = true;
+      }
+    } 
+  })
+
+  $(window).on('load resize', function() {
+    if($(window).width() > 750) {
+      $('.footer-list-2-wrap').show(1);
+    }
+  })

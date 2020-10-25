@@ -892,12 +892,42 @@
         display: none;
     }
 
+    .footer-second-list-wrap {
+        display: block;
+    }
+
     .footer-list.footer-list-2 {
         padding-top: 198px;
     }
 
     .footer-list.footer-list-2 p {
         padding-bottom: 27px;
+    }
+
+    .footer-list.footer-list-2 p:hover {
+        color: #fff;
+        transition: 0.5s;
+    }
+
+    .footer-list.footer-list-2 p:after {
+        content: '+';
+        float: right;
+        color: #fff;
+        transition: 1s;
+    }
+
+    .footer-list.footer-list-2.active p:after {
+        content: '-';
+    }
+
+    .footer-list-2-wrap ul:last-child {
+        padding-left: 0;
+    }
+
+    #Enter {
+        display: block;
+        position: absolute;
+        top: 75%;
     }
 
 }
