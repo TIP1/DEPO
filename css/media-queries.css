@@ -943,10 +943,12 @@
         display: block;
         position: absolute;
         top: 100rem;
-        transition: 3s;
+        left: -50rem;
+        transition: 1.5s;
     }
 
     .mob-nav-menu-popup.active {
+        left: 0rem;
         top: 7.375rem;
         width: 55.875rem;
         display: block;
@@ -981,9 +983,21 @@
 
 }
 
+@media (max-width: 45rem) {
+    html {
+        font-size: 15px;
+    }
+}
+
 @media (max-width: 43.625rem) {
     html {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 40.625rem) {
+    html {
+        font-size: 13px;
     }
 }
 
@@ -994,16 +1008,33 @@
     }
 }
 
+@media (max-width: 34.1rem) {
+    html {
+        font-size: 11px;
+    }
+}
 
-@media (max-width: 30.625rem) {
+@media (max-width: 31rem) {
     html {
         font-size: 10px;
+    }
+}
+
+@media (max-width: 28.3rem) {
+    html {
+        font-size: 9px;
     }
 }
 
 @media (max-width: 25.625rem) {
     html {
         font-size: 8px;
+    }
+}
+
+@media (max-width: 23rem) {
+    html {
+        font-size: 7px;
     }
 }
 
