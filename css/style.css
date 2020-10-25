@@ -1487,6 +1487,10 @@ footer {
     width: 11.5%
 }
 
+.footer-content {
+    display: block;
+}
+
 .footer-location {
     color: #fff;
     font-family: 'CRC25';
@@ -1532,5 +1536,9 @@ header, section {
 
 
 .mob-nav-burger {
+    display: none;
+}
+
+.team-column-mob {
     display: none;
 }

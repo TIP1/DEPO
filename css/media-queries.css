@@ -613,7 +613,8 @@
      }
 
      .team {
-        height: 1429px;
+        /* height: 1429px; */
+        height: 1424px;
      }
 
      .team .container {
@@ -621,13 +622,15 @@
      }
 
      .team-img-chief {
-        bottom: -3%;
+        bottom: 0%;
         left: -7.4%;
         position: absolute;
      }
 
      .team-slide-column-1 {
-        width: 64%;
+        /* width: 75%; */
+        /* width: 110%; */
+        width: 88%;
      }
 
      .team-slide-1-words {
@@ -680,6 +683,222 @@
         width: 29%;
      }
 
+     .team-column-mob {
+        display: block;
+        border-left: 0.0625rem solid #ffffff17;
+     }
+
+     .team-slide-column-2, .team-slide-column-3 {
+        display: none;
+     }
+
+     .team-point:first-child {
+        padding-top: 0;
+        padding-bottom: 0;
+     }
+
+     .team-point-number {
+        font-size: 24px;
+        padding-bottom: 0;
+     }
+
+     .team-point-title {
+        font-size: 24px;
+     }
+
+     .team-point-description {
+        /* font-size: 24px; */
+        font-size: 19px;
+        padding-top: 0;
+      }
+
+      .team-point {
+        width: 100%;
+        padding-bottom: 34px !important;
+      }
+
+      .team-column-mob .team-slide-2-words {
+        padding-top: 206px;
+      }
+
+      .team-hobbies {
+        left: 66.5%;
+        top: 61.7%;
+        width: 14.4%;
+      }
+
+      .team .swiper-button-next {
+        width: 8.66%;
+        height: 2.35%;
+        top: 8%;
+        left: 82.2%;
+      }
+
+      .team .swiper-button-prev {
+        width: 8.66%;
+        height: 2.35%;
+        top: 8%;
+        left: 66.5%;
+      }
+
+      .gallery-title {
+        font-size: 72px;
+        top: 115px;
+        left: 30px;
+      }
+
+      .gallery-btn {
+        font-size: 30px;
+        left: 56.5%;
+        top: 13.4%;
+        padding: 19px 58px 15px 64px;
+      }
+
+      .gallery-btn:after {
+        height: 25px;
+        width: 42px;
+      }
+
+      .gallery-slide-pict {
+        height: 386px;
+        width: 597px;
+      }
+
+      /* .gallery .swiper-slide {
+        height: 386px;
+        width: 597px;
+      } */
+
+      .gallery .swiper-container {
+        padding-top: 126px;
+      }
+
+      .gallery .swiper-slide.swiper-slide-active {
+          z-index: 1;
+      }
+
+      .gallery .swiper-slide-next img, .gallery .swiper-slide-prev img {
+          height: 278px;
+          z-index: 0;
+      }
+
+      .gallery .swiper-pagination-bullet {
+        font-size: 30px;
+       }
+
+      .gallery .swiper-pagination-bullet:after {
+        top: -1.875rem;
+        left: 150%;
+        width: 4px;
+        height: 21px;
+        transition: all 0.5s;
+       }
+
+       .gallery .swiper-pagination-bullet-active:after {
+        top: -45px;
+        left: 150%;
+        width: 4px;
+        height: 35px;
+       }
+
+       .gallery .swiper-pagination-bullet {
+        margin: 0 30px !important;
+       }
+
+       .gallery .swiper-container-horizontal .swiper-pagination-bullets {
+        left: -3%;
+        top: 73.5%;
+       }
+
+       .gallery {
+        height: 905px;
+       }
+
+       .gallery .swiper-button-next,
+       .gallery .swiper-button-prev {
+           display: none;
+       }
+
+       .footer-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-list.footer-list-1 {
+        order: 2;
+    }
+
+    .footer-list.footer-list-2 {
+        order: 3;
+    }
+
+    .footer-contacts {
+        order: 1;
+        position: initial;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 68px;
+    }
+    
+    footer .container {
+        width: 89.2%;
+    }
+
+    .footer-contacts-logo {
+        width: 35%;
+    }
+
+    .footer-location {
+        font-size: 30px;
+    }
+
+    .footer-mobile {
+        font-size: 30px;
+    }
+
+    .footer-contacts-logo {
+        width: 34%;
+        height: 20%;
+        padding-top: 20px;
+    }
+
+    .footer-contacts-icons img {
+        width: 23.5%;
+    }
+
+    .footer-list {
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer-list p {
+        font-size: 24px;
+    }
+
+    .footer-list li a {
+        font-size: 24px;
+    }
+
+    .footer-list.footer-list-1 {
+        padding-top: 60px;
+    }
+
+    .footer-list.footer-list-1 p {
+        padding-bottom: 27px;
+    }
+
+    .footer-list-2-wrap {
+        display: none;
+    }
+
+    .footer-list.footer-list-2 {
+        padding-top: 198px;
+    }
+
+    .footer-list.footer-list-2 p {
+        padding-bottom: 27px;
+    }
 
 }
 
