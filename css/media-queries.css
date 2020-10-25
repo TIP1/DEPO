@@ -271,6 +271,18 @@
         left: 26.07%
     }
 
+    .counter img {
+        width: 88%;
+        padding-top: 68px;
+    }
+
+    .counter p {
+        font-size: 36px;
+        padding-top: 40px;
+        letter-spacing: 0.6px;
+        padding-bottom: 80.55px;
+    }
+
 }
 
 @media (max-width: 43.625rem) {
