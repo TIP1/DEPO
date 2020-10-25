@@ -1550,3 +1550,7 @@ header, section {
 .team-column-mob {
     display: none;
 }
+
+.mob-nav-menu-popup, .mob-nav-menu-popup.active {
+    display: none;
+}

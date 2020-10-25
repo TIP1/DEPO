@@ -117,3 +117,9 @@ var MainSlider = new Swiper('.main-slider .swiper-container', {
       $('.footer-list-2-wrap').show(1);
     }
   })
+
+
+
+  $('#burger-nav').on('click', function(){
+    $('.mob-nav-menu-popup').toggleClass('active');
+  })

@@ -939,6 +939,46 @@
         display: none;
     }
 
+    .mob-nav-menu-popup {
+        display: block;
+        position: absolute;
+        top: 100rem;
+        transition: 3s;
+    }
+
+    .mob-nav-menu-popup.active {
+        top: 7.375rem;
+        width: 55.875rem;
+        display: block;
+        background: #fff;
+        padding-bottom: 8rem;
+        padding-top: 4rem;
+        z-index: 10;
+    }
+
+    .mob-nav-menu-popup li {
+        /* text-align: center; --тоже красивый вариант */
+        padding: 0.5rem;
+    }
+
+    .mob-nav-menu-popup a {
+        text-transform: uppercase;
+        font-family: 'CRC35';
+        color: #000;
+        font-size: 3rem;
+        text-decoration: none;
+        border-bottom: 2px solid #777;
+        transition: 0.5s;
+        text-shadow: #777 -16px 16px 20px;
+        cursor: pointer;
+    }
+
+    .mob-nav-menu-popup li:hover a {
+        width: 46.875rem;
+        color: rgb(38, 30, 153);
+        padding: 0 39%;
+    }
+
 }
 
 @media (max-width: 43.625rem) {
