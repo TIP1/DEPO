@@ -50,11 +50,11 @@
     .nav-logo {
         margin: 0;
         padding: 0;
-        padding: 0px 126px 0px 0px;
+        padding: 0rem 7.875rem 0rem 0rem;
     }
 
     .nav-logo img {
-        padding: 1px 0px 11.4px 0px;
+        padding: 0.0625rem 0rem 0.7125rem 0rem;
         width: 202%;
     }
 
@@ -64,18 +64,18 @@
     }
 
     #burger-nav {
-        padding: 34px 0px 28px 38px;
+        padding: 2.125rem 0rem 1.75rem 2.375rem;
         width: 100%;
     }
 
     .main-slide-title {
-        font-size: 72px;
+        font-size: 4.5rem;
         width: 40%;
-        margin-right: 107px;
-        margin-left: 34px;
-        padding-top: 215px;
-        letter-spacing: 2px;
-        line-height: 72px;
+        margin-right: 6.6875rem;
+        margin-left: 2.125rem;
+        padding-top: 13.4375rem;
+        letter-spacing: 0.125rem;
+        line-height: 4.5rem;
     }
 
     .main-slider .swiper-slide:first-child .main-slide-column:nth-child(2),
@@ -103,15 +103,15 @@
     }
 
     .main-slider .swiper-slide {
-        padding-bottom: 50px;
+        padding-bottom: 3.125rem;
     }
-    
+
     .main-column-letters {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .main-column-title {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
 
     .main-slide-column:nth-child(2) .main-column-focus {
@@ -119,16 +119,16 @@
     }
 
     .main-slider .main-column-focus .main-column-title {
-        line-height: 43px;
+        line-height: 2.6875rem;
     }
 
     .main-slide-columns, .main-slide-column {
         width: 100%;
-        height: 1071px;
+        height: 66.9375rem;
     }
 
     .main-slide-column {
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(0.5rem);
         background: linear-gradient(to top, #60417359, #fbfbfb00);
     }
 
@@ -147,26 +147,26 @@
     }
 
     .main-slider .swiper-pagination-bullet {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .main-slider .swiper-pagination-bullet:after {
         top: -1.875rem;
         left: 150%;
-        width: 4px;
-        height: 21px;
+        width: 0.25rem;
+        height: 1.3125rem;
         transition: all 0.5s;
     }
 
     .main-slider .swiper-pagination-bullet-active:after {
-        top: -45px;
+        top: -2.8125rem;
         left: 150%;
-        width: 4px;
-        height: 35px;
+        width: 0.25rem;
+        height: 2.1875rem;
     }
 
     .main-slider .swiper-pagination-bullet {
-        margin: 0 30px !important;
+        margin: 0 1.875rem !important;
     }
 
     .main-slider .swiper-container-horizontal .swiper-pagination-bullets {
@@ -191,10 +191,10 @@
     }
 
     .second-slider-title {
-        font-size: 72px;
+        font-size: 4.5rem;
         width: 100%;
-        letter-spacing: 1.4px;
-        padding-bottom: 39px;
+        letter-spacing: 0.0875rem;
+        padding-bottom: 2.4375rem;
     }
 
     .second-slider-words {
@@ -203,13 +203,13 @@
     }
 
     .second-slider-date {
-        font-size: 36px;
-        padding-bottom: 19px;
+        font-size: 2.25rem;
+        padding-bottom: 1.1875rem;
     }
 
     .second-slider-info {
-        font-size: 30px;
-        line-height: 37px;
+        font-size: 1.875rem;
+        line-height: 2.3125rem;
     }
 
     .second-slider-description {
@@ -218,15 +218,15 @@
     }
 
     .second-slider-description p {
-        font-size: 36px;
+        font-size: 2.25rem;
         width: 97%;
-        line-height: 41px;
+        line-height: 2.5625rem;
     }
 
     .second-slider-description span {
         top: 172%;
         left: 24%;
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .second-slider .swiper-button-next {
@@ -246,20 +246,20 @@
     .second-slider .swiper-pagination-bullet:after {
         top: -1.875rem;
         left: 150%;
-        width: 4px;
-        height: 21px;
+        width: 0.25rem;
+        height: 1.3125rem;
         transition: all 0.5s;
     }
 
     .second-slider .swiper-pagination-bullet-active:after {
-        top: -45px;
+        top: -2.8125rem;
         left: 150%;
-        width: 4px;
-        height: 35px;
-    }  
+        width: 0.25rem;
+        height: 2.1875rem;
+    }
 
     .second-slider .swiper-pagination-bullet {
-        margin: 0 30px !important;
+        margin: 0 1.875rem !important;
     }
 
     .second-slider .swiper-container-horizontal .swiper-pagination-bullets {
@@ -268,7 +268,7 @@
     }
 
     .second-slider .swiper-pagination-bullet {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .second-slider .swiper-pagination {
@@ -278,18 +278,18 @@
 
     .counter img {
         width: 88%;
-        padding-top: 68px;
+        padding-top: 4.25rem;
     }
 
     .counter p {
-        font-size: 36px;
-        padding-top: 40px;
-        letter-spacing: 0.6px;
-        padding-bottom: 80.55px;
+        font-size: 2.25rem;
+        padding-top: 2.5rem;
+        letter-spacing: 0.0375rem;
+        padding-bottom: 5.034375rem;
     }
 
     .events {
-        height: 2463px
+        height: 153.9375rem
     }
 
     .events-san {
@@ -305,13 +305,13 @@
     }
 
     .event-subtitle {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .events-item-description {
         width: 60%;
         top: 43%;
-        line-height: 37px;
+        line-height: 2.3125rem;
     }
 
     .events-item-date {
@@ -319,8 +319,8 @@
     }
 
     .events-titles .event-title {
-        font-size: 48px;
-        margin-bottom: 10px;
+        font-size: 3rem;
+        margin-bottom: 0.625rem;
     }
 
     .events-slider .swiper-button-next {
@@ -338,7 +338,7 @@
     }
 
     .events-flex p {
-        font-size: 30px;
+        font-size: 1.875rem;
         left: 7.5%;
     }
 
@@ -357,45 +357,45 @@
 
     .events-item-clear, .events-item-pict {
         width: 100%;
-        height: 291px;
+        height: 18.1875rem;
     }
 
     .dilivery {
-        height: 1235px;
+        height: 77.1875rem;
     }
 
     .dilivery-title.first-title {
-        font-size: 50px;
-        padding-top: 152px;
+        font-size: 3.125rem;
+        padding-top: 9.5rem;
     }
 
     .dilivery-title.second-title {
-        font-size: 70px;
-        line-height: 55px;
+        font-size: 4.375rem;
+        line-height: 3.4375rem;
     }
 
     .dilivery-point-number {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .dilivery-point-title {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .dilivery-point-description {
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 1.875rem;
+        line-height: 2.1875rem;
     }
 
     .dilivery-points .dilivery-point {
         width: 40%;
         padding: 0;
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 
     .dilivery-points {
         width: 80%;
-        padding-top: 28px;
+        padding-top: 1.75rem;
     }
 
     .dilivery-cheiffirst {
@@ -417,97 +417,97 @@
 
     .quest-title {
         display: inline-block;
-        font-size: 110px;
+        font-size: 6.875rem;
     }
 
     .quest-left {
-        padding-top: 165px;
+        padding-top: 10.3125rem;
     }
 
     .quest-title:first-child {
-        padding-left: 25px;
-        padding-right: 18px;
+        padding-left: 1.5625rem;
+        padding-right: 1.125rem;
     }
 
     .quest-descriotion {
-        font-size: 30px;
+        font-size: 1.875rem;
         width: 80%;
-        line-height: 35px;
+        line-height: 2.1875rem;
         width: 80%;
-        padding-left: 25px;
-        padding-top: 20px;
+        padding-left: 1.5625rem;
+        padding-top: 1.25rem;
     }
 
     .quest-right {
-        padding-top: 65px;
+        padding-top: 4.0625rem;
         width: 96.267%;
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
 
     .quest-right-text {
-        font-size: 40px;
+        font-size: 2.5rem;
         top: 12.4%;
-        line-height: 50px;
+        line-height: 3.125rem;
         left: 6.5%;
         width: 100%;
     }
 
     .quest-right-letters {
-        font-size: 24px;
+        font-size: 1.5rem;
         top: 88.2%;
         left: 61.8%;
     }
 
     .quest-right a {
-        font-size: 30px;
+        font-size: 1.875rem;
         top: 25.1%;
         left: 7%;
-        padding: 17px 47px 17px 52px;
+        padding: 1.0625rem 2.9375rem 1.0625rem 3.25rem;
     }
 
     .quest-right a:after {
-        margin-left: 20px;
+        margin-left: 1.25rem;
     }
-    
+
     .quest {
-        padding-bottom: 132px;
+        padding-bottom: 8.25rem;
     }
 
     .video {
-        height: 1028px;
+        height: 64.25rem;
     }
 
     .video-map {
-        font-size: 30px;
+        font-size: 1.875rem;
         top: 90%;
         left: 1.5%;
-        padding: 20px 144px 15px 175px;
+        padding: 1.25rem 9rem 0.9375rem 10.9375rem;
     }
 
     .video-map:after {
-        margin-left: 41px;
+        margin-left: 2.5625rem;
     }
 
     #playBtn {
-        top: 822px;
+        top: 51.375rem;
         left: 17%;
         width: 35%;
     }
 
     #noiseLevel {
-        top: 818px;
+        top: 51.125rem;
         left: 425%;
         width: 35%;
     }
 
     #volume {
         width: 338%;
-        top: 842.8px;
-        left: 110px;
+        top: 52.675rem;
+        left: 6.875rem;
     }
 
     .statistics {
-        height: 1274px
+        height: 79.625rem
     }
 
     .statistics-titles {
@@ -516,14 +516,14 @@
     }
 
     .statistics-title {
-        font-size: 60px;
+        font-size: 3.75rem;
         width: 80%;
-        line-height: 65px;
-        padding-bottom: 18px;
+        line-height: 4.0625rem;
+        padding-bottom: 1.125rem;
     }
 
     .statistics-subtitle {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .statistics .container {
@@ -531,9 +531,9 @@
     }
 
     .statistics-table {
-        top: 368px;
+        top: 23rem;
         width: 102%;
-        left: -8px;
+        left: -0.5rem;
         position: relative;
     }
 
@@ -546,28 +546,28 @@
     }
 
     .statistics-table-row-1 .statistics-table-col {
-        height: 119px;
+        height: 7.4375rem;
     }
 
     .statistics-table-row-2 .statistics-table-col {
-        height: 174px;
+        height: 10.875rem;
     }
 
     .statistics-table-row-3 .statistics-table-col {
-        height: 168px;
+        height: 10.5rem;
     }
 
     .statistics-table-row-4 .statistics-table-col {
-        height: 170px;
+        height: 10.625rem;
     }
 
     .statistics-table-num {
-        font-size: 72px;
-        line-height: 78px;
+        font-size: 4.5rem;
+        line-height: 4.875rem;
     }
 
     .statistics-table-words {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .statistics-table-wrap-words {
@@ -583,18 +583,18 @@
     }
 
     .statistics-table-wrap-words {
-        padding-left: 40px;
-        padding-top: 38px;
+        padding-left: 2.5rem;
+        padding-top: 2.375rem;
     }
 
     .statistics-table-row-1 .statistics-table-wrap-words {
         padding: 0;
-        left: 42px;
-        top: -8px
+        left: 2.625rem;
+        top: -0.5rem
     }
 
     .statistics-table-row-1 .statistics-table-wrap-words.active {
-        left: 42px;
+        left: 2.625rem;
     }
 
     .statistics-table-row-4.statistics-table-row.active:before,
@@ -618,8 +618,8 @@
      }
 
      .team {
-        /* height: 1429px; */
-        height: 1424px;
+        /* height: 89.3125rem; */
+        height: 89rem;
      }
 
      .team .container {
@@ -639,44 +639,44 @@
      }
 
      .team-slide-1-words {
-        padding-top: 60px;
+        padding-top: 3.75rem;
         display: flex;
         flex-direction: column;
      }
 
      .team-slide-1-title {
-        font-size: 72px;
+        font-size: 4.5rem;
         order: 1;
-        padding-bottom: 65px;
+        padding-bottom: 4.0625rem;
      }
 
      .team-slide-1-name {
         order: 3;
-        font-size: 36px;
+        font-size: 2.25rem;
      }
 
      .team-slide-1-career {
         order: 3;
-        font-size: 24px;
-        padding-bottom: 70px;
+        font-size: 1.5rem;
+        padding-bottom: 4.375rem;
      }
 
      .team-slide-1-pict {
          order: 1;
-         padding-bottom: 5px;
+         padding-bottom: 0.3125rem;
      }
 
      .team-slide-1-about {
          order: 3;
-         font-size: 30px;
+         font-size: 1.875rem;
          padding-bottom: 0;
      }
 
      .team-slide-1-descr {
          order: 3;
-         font-size: 24px;
+         font-size: 1.5rem;
          width: 62%;
-         line-height: 25px;
+         line-height: 1.5625rem;
      }
 
      .team-slide-1-pict img:first-child {
@@ -684,7 +684,7 @@
      }
 
      .team-slide-1-pict img:last-child {
-        padding-top: 10px;
+        padding-top: 0.625rem;
         width: 29%;
      }
 
@@ -703,27 +703,27 @@
      }
 
      .team-point-number {
-        font-size: 24px;
+        font-size: 1.5rem;
         padding-bottom: 0;
      }
 
      .team-point-title {
-        font-size: 24px;
+        font-size: 1.5rem;
      }
 
      .team-point-description {
-        /* font-size: 24px; */
-        font-size: 19px;
+        /* font-size: 1.5rem; */
+        font-size: 1.1875rem;
         padding-top: 0;
       }
 
       .team-point {
         width: 100%;
-        padding-bottom: 34px !important;
+        padding-bottom: 2.125rem !important;
       }
 
       .team-column-mob .team-slide-2-words {
-        padding-top: 206px;
+        padding-top: 12.875rem;
       }
 
       .team-hobbies {
@@ -747,35 +747,35 @@
       }
 
       .gallery-title {
-        font-size: 72px;
-        top: 115px;
-        left: 30px;
+        font-size: 4.5rem;
+        top: 7.1875rem;
+        left: 1.875rem;
       }
 
       .gallery-btn {
-        font-size: 30px;
+        font-size: 1.875rem;
         left: 56.5%;
         top: 13.4%;
-        padding: 19px 58px 15px 64px;
+        padding: 1.1875rem 3.625rem 0.9375rem 4rem;
       }
 
       .gallery-btn:after {
-        height: 25px;
-        width: 42px;
+        height: 1.5625rem;
+        width: 2.625rem;
       }
 
       .gallery-slide-pict {
-        height: 386px;
-        width: 597px;
+        height: 24.125rem;
+        width: 37.3125rem;
       }
 
       /* .gallery .swiper-slide {
-        height: 386px;
-        width: 597px;
+        height: 24.125rem;
+        width: 37.3125rem;
       } */
 
       .gallery .swiper-container {
-        padding-top: 126px;
+        padding-top: 7.875rem;
       }
 
       .gallery .swiper-slide.swiper-slide-active {
@@ -783,31 +783,31 @@
       }
 
       .gallery .swiper-slide-next img, .gallery .swiper-slide-prev img {
-          height: 278px;
+          height: 17.375rem;
           z-index: 0;
       }
 
       .gallery .swiper-pagination-bullet {
-        font-size: 30px;
+        font-size: 1.875rem;
        }
 
       .gallery .swiper-pagination-bullet:after {
         top: -1.875rem;
         left: 150%;
-        width: 4px;
-        height: 21px;
+        width: 0.25rem;
+        height: 1.3125rem;
         transition: all 0.5s;
        }
 
        .gallery .swiper-pagination-bullet-active:after {
-        top: -45px;
+        top: -2.8125rem;
         left: 150%;
-        width: 4px;
-        height: 35px;
+        width: 0.25rem;
+        height: 2.1875rem;
        }
 
        .gallery .swiper-pagination-bullet {
-        margin: 0 30px !important;
+        margin: 0 1.875rem !important;
        }
 
        .gallery .swiper-container-horizontal .swiper-pagination-bullets {
@@ -816,7 +816,7 @@
        }
 
        .gallery {
-        height: 905px;
+        height: 56.5625rem;
        }
 
        .gallery .swiper-button-next,
@@ -843,9 +843,9 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        padding-top: 68px;
+        padding-top: 4.25rem;
     }
-    
+
     footer .container {
         width: 89.2%;
     }
@@ -855,17 +855,17 @@
     }
 
     .footer-location {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .footer-mobile {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .footer-contacts-logo {
         width: 34%;
         height: 20%;
-        padding-top: 20px;
+        padding-top: 1.25rem;
     }
 
     .footer-contacts-icons img {
@@ -878,19 +878,19 @@
     }
 
     .footer-list p {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .footer-list li a {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .footer-list.footer-list-1 {
-        padding-top: 60px;
+        padding-top: 3.75rem;
     }
 
     .footer-list.footer-list-1 p {
-        padding-bottom: 27px;
+        padding-bottom: 1.6875rem;
     }
 
     .footer-list-2-wrap {
@@ -902,11 +902,11 @@
     }
 
     .footer-list.footer-list-2 {
-        padding-top: 191px;
+        padding-top: 11.9375rem;
     }
 
     .footer-list.footer-list-2 p {
-        padding-bottom: 27px;
+        padding-bottom: 1.6875rem;
     }
 
     .footer-list.footer-list-2 p:hover {
@@ -939,6 +939,38 @@
 
 @media (max-width: 43.625rem) {
     html {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 36.625rem) {
+    html {
         font-size: 12px;
+    }
+}
+
+
+@media (max-width: 30.625rem) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 25.625rem) {
+    html {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 20.625rem) {
+    html {
+        font-size: 6px;
+    }
+}
+
+@media (max-width: 17.625rem) {
+    html {
+        font-size: 4px;
     }
 }
